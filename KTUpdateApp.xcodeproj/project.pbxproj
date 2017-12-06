@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		45A2C4021FD82B5F006273CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2C4011FD82B5F006273CE /* main.m */; };
 		45A2C4051FD82B5F006273CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2C4041FD82B5F006273CE /* AppDelegate.m */; };
-		45A2C4081FD82B5F006273CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2C4071FD82B5F006273CE /* ViewController.m */; };
 		45A2C40B1FD82B5F006273CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A2C4091FD82B5F006273CE /* Main.storyboard */; };
 		45A2C40D1FD82B5F006273CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A2C40C1FD82B5F006273CE /* Assets.xcassets */; };
-		45A2C4101FD82B5F006273CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A2C40E1FD82B5F006273CE /* LaunchScreen.storyboard */; };
 		45A2C41B1FD82B60006273CE /* KTUpdateAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2C41A1FD82B60006273CE /* KTUpdateAppTests.m */; };
 		45A2C4261FD82B60006273CE /* KTUpdateAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2C4251FD82B60006273CE /* KTUpdateAppUITests.m */; };
+		45A2C4361FD82BC3006273CE /* KTUpdateApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2C4351FD82BC3006273CE /* KTUpdateApp.m */; };
+		45A2C4391FD82D23006273CE /* KTMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2C4381FD82D23006273CE /* KTMainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +39,8 @@
 		45A2C4011FD82B5F006273CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45A2C4031FD82B5F006273CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45A2C4041FD82B5F006273CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		45A2C4061FD82B5F006273CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		45A2C4071FD82B5F006273CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		45A2C40A1FD82B5F006273CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45A2C40C1FD82B5F006273CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		45A2C40F1FD82B5F006273CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45A2C4111FD82B5F006273CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45A2C4161FD82B60006273CE /* KTUpdateAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTUpdateAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A2C41A1FD82B60006273CE /* KTUpdateAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTUpdateAppTests.m; sourceTree = "<group>"; };
@@ -51,6 +48,10 @@
 		45A2C4211FD82B60006273CE /* KTUpdateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTUpdateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A2C4251FD82B60006273CE /* KTUpdateAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTUpdateAppUITests.m; sourceTree = "<group>"; };
 		45A2C4271FD82B60006273CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A2C4341FD82BC3006273CE /* KTUpdateApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUpdateApp.h; sourceTree = "<group>"; };
+		45A2C4351FD82BC3006273CE /* KTUpdateApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTUpdateApp.m; sourceTree = "<group>"; };
+		45A2C4371FD82D23006273CE /* KTMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTMainTableViewController.h; sourceTree = "<group>"; };
+		45A2C4381FD82D23006273CE /* KTMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTMainTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +102,13 @@
 		45A2C3FF1FD82B5F006273CE /* KTUpdateApp */ = {
 			isa = PBXGroup;
 			children = (
+				45A2C4331FD82B9D006273CE /* KTUpdateTool */,
 				45A2C4031FD82B5F006273CE /* AppDelegate.h */,
 				45A2C4041FD82B5F006273CE /* AppDelegate.m */,
-				45A2C4061FD82B5F006273CE /* ViewController.h */,
-				45A2C4071FD82B5F006273CE /* ViewController.m */,
+				45A2C4371FD82D23006273CE /* KTMainTableViewController.h */,
+				45A2C4381FD82D23006273CE /* KTMainTableViewController.m */,
 				45A2C4091FD82B5F006273CE /* Main.storyboard */,
 				45A2C40C1FD82B5F006273CE /* Assets.xcassets */,
-				45A2C40E1FD82B5F006273CE /* LaunchScreen.storyboard */,
 				45A2C4111FD82B5F006273CE /* Info.plist */,
 				45A2C4001FD82B5F006273CE /* Supporting Files */,
 			);
@@ -138,6 +139,15 @@
 				45A2C4271FD82B60006273CE /* Info.plist */,
 			);
 			path = KTUpdateAppUITests;
+			sourceTree = "<group>";
+		};
+		45A2C4331FD82B9D006273CE /* KTUpdateTool */ = {
+			isa = PBXGroup;
+			children = (
+				45A2C4341FD82BC3006273CE /* KTUpdateApp.h */,
+				45A2C4351FD82BC3006273CE /* KTUpdateApp.m */,
+			);
+			path = KTUpdateTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +217,7 @@
 				TargetAttributes = {
 					45A2C3FC1FD82B5F006273CE = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = Z9EUSLXX48;
+						DevelopmentTeam = WUWYVL564K;
 						ProvisioningStyle = Automatic;
 					};
 					45A2C4151FD82B60006273CE = {
@@ -249,7 +259,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A2C4101FD82B5F006273CE /* LaunchScreen.storyboard in Resources */,
 				45A2C40D1FD82B5F006273CE /* Assets.xcassets in Resources */,
 				45A2C40B1FD82B5F006273CE /* Main.storyboard in Resources */,
 			);
@@ -276,9 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A2C4081FD82B5F006273CE /* ViewController.m in Sources */,
 				45A2C4051FD82B5F006273CE /* AppDelegate.m in Sources */,
+				45A2C4391FD82D23006273CE /* KTMainTableViewController.m in Sources */,
 				45A2C4021FD82B5F006273CE /* main.m in Sources */,
+				45A2C4361FD82BC3006273CE /* KTUpdateApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,14 +330,6 @@
 				45A2C40A1FD82B5F006273CE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		45A2C40E1FD82B5F006273CE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45A2C40F1FD82B5F006273CE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -374,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -429,8 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				DEVELOPMENT_TEAM = WUWYVL564K;
 				INFOPLIST_FILE = KTUpdateApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kt.KTUpdateApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,8 +444,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				DEVELOPMENT_TEAM = WUWYVL564K;
 				INFOPLIST_FILE = KTUpdateApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kt.KTUpdateApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +522,7 @@
 				45A2C42C1FD82B60006273CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45A2C42D1FD82B60006273CE /* Build configuration list for PBXNativeTarget "KTUpdateAppTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				45A2C42F1FD82B60006273CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45A2C4301FD82B60006273CE /* Build configuration list for PBXNativeTarget "KTUpdateAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				45A2C4321FD82B60006273CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

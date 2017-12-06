@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  KTMainTableViewController.h
 //  KTUpdateApp
 //  QQ：812144991
 //  Email：Keen_Team@163.com
@@ -10,10 +10,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface KTMainTableViewController : UITableViewController
 
 @end
-
