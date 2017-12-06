@@ -1,3 +1,5 @@
+# KTUpdateApp
+
 ***
 基于天朝的AppStore检测自动更新功能，现已适配iOS11
 
@@ -16,8 +18,6 @@
 ***
 文件小巧，轻便：
 
-![只有一个.h和.m文件.png](http://upload-images.jianshu.io/upload_images/2923333-3a2c1de010ebd857.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 支持cocoapods：
 
 ```
@@ -28,7 +28,7 @@ pod 'KTUpdateApp'
 
 
 ```
-#import "HSUpdateApp.h"
+#import "KTUpdateApp.h"
 ```
 
 ```
@@ -41,7 +41,7 @@ pod 'KTUpdateApp'
   @param isUpdate 是否需要更新
   @return 
 */
- [HSUpdateApp hs_updateWithAPPID:nil withBundleId:nil block:^(NSString *currentVersion, NSString *storeVersion, NSString *openUrl, BOOL isUpdate) {
+ [KTUpdateApp kt_updateWithAPPID:nil withBundleId:nil block:^(NSString *currentVersion, NSString *storeVersion, NSString *openUrl, BOOL isUpdate) {
   }];
 ```
 
