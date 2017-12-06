@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45A2C4021FD82B5F006273CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2C4011FD82B5F006273CE /* main.m */; };
+		45A2C4051FD82B5F006273CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2C4041FD82B5F006273CE /* AppDelegate.m */; };
+		45A2C4081FD82B5F006273CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2C4071FD82B5F006273CE /* ViewController.m */; };
+		45A2C40B1FD82B5F006273CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A2C4091FD82B5F006273CE /* Main.storyboard */; };
+		45A2C40D1FD82B5F006273CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A2C40C1FD82B5F006273CE /* Assets.xcassets */; };
+		45A2C4101FD82B5F006273CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A2C40E1FD82B5F006273CE /* LaunchScreen.storyboard */; };
+		45A2C41B1FD82B60006273CE /* KTUpdateAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2C41A1FD82B60006273CE /* KTUpdateAppTests.m */; };
+		45A2C4261FD82B60006273CE /* KTUpdateAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A2C4251FD82B60006273CE /* KTUpdateAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45A2C4171FD82B60006273CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45A2C3F51FD82B5F006273CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A2C3FC1FD82B5F006273CE;
+			remoteInfo = KTUpdateApp;
+		};
+		45A2C4221FD82B60006273CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45A2C3F51FD82B5F006273CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A2C3FC1FD82B5F006273CE;
+			remoteInfo = KTUpdateApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45A2C3FD1FD82B5F006273CE /* KTUpdateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTUpdateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A2C4011FD82B5F006273CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45A2C4031FD82B5F006273CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45A2C4041FD82B5F006273CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45A2C4061FD82B5F006273CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45A2C4071FD82B5F006273CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45A2C40A1FD82B5F006273CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45A2C40C1FD82B5F006273CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45A2C40F1FD82B5F006273CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45A2C4111FD82B5F006273CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A2C4161FD82B60006273CE /* KTUpdateAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTUpdateAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A2C41A1FD82B60006273CE /* KTUpdateAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTUpdateAppTests.m; sourceTree = "<group>"; };
+		45A2C41C1FD82B60006273CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A2C4211FD82B60006273CE /* KTUpdateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTUpdateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A2C4251FD82B60006273CE /* KTUpdateAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTUpdateAppUITests.m; sourceTree = "<group>"; };
+		45A2C4271FD82B60006273CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45A2C3FA1FD82B5F006273CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A2C4131FD82B60006273CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A2C41E1FD82B60006273CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45A2C3F41FD82B5F006273CE = {
+			isa = PBXGroup;
+			children = (
+				45A2C3FF1FD82B5F006273CE /* KTUpdateApp */,
+				45A2C4191FD82B60006273CE /* KTUpdateAppTests */,
+				45A2C4241FD82B60006273CE /* KTUpdateAppUITests */,
+				45A2C3FE1FD82B5F006273CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45A2C3FE1FD82B5F006273CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45A2C3FD1FD82B5F006273CE /* KTUpdateApp.app */,
+				45A2C4161FD82B60006273CE /* KTUpdateAppTests.xctest */,
+				45A2C4211FD82B60006273CE /* KTUpdateAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45A2C3FF1FD82B5F006273CE /* KTUpdateApp */ = {
+			isa = PBXGroup;
+			children = (
+				45A2C4031FD82B5F006273CE /* AppDelegate.h */,
+				45A2C4041FD82B5F006273CE /* AppDelegate.m */,
+				45A2C4061FD82B5F006273CE /* ViewController.h */,
+				45A2C4071FD82B5F006273CE /* ViewController.m */,
+				45A2C4091FD82B5F006273CE /* Main.storyboard */,
+				45A2C40C1FD82B5F006273CE /* Assets.xcassets */,
+				45A2C40E1FD82B5F006273CE /* LaunchScreen.storyboard */,
+				45A2C4111FD82B5F006273CE /* Info.plist */,
+				45A2C4001FD82B5F006273CE /* Supporting Files */,
+			);
+			path = KTUpdateApp;
+			sourceTree = "<group>";
+		};
+		45A2C4001FD82B5F006273CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45A2C4011FD82B5F006273CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45A2C4191FD82B60006273CE /* KTUpdateAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				45A2C41A1FD82B60006273CE /* KTUpdateAppTests.m */,
+				45A2C41C1FD82B60006273CE /* Info.plist */,
+			);
+			path = KTUpdateAppTests;
+			sourceTree = "<group>";
+		};
+		45A2C4241FD82B60006273CE /* KTUpdateAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45A2C4251FD82B60006273CE /* KTUpdateAppUITests.m */,
+				45A2C4271FD82B60006273CE /* Info.plist */,
+			);
+			path = KTUpdateAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45A2C3FC1FD82B5F006273CE /* KTUpdateApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A2C42A1FD82B60006273CE /* Build configuration list for PBXNativeTarget "KTUpdateApp" */;
+			buildPhases = (
+				45A2C3F91FD82B5F006273CE /* Sources */,
+				45A2C3FA1FD82B5F006273CE /* Frameworks */,
+				45A2C3FB1FD82B5F006273CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTUpdateApp;
+			productName = KTUpdateApp;
+			productReference = 45A2C3FD1FD82B5F006273CE /* KTUpdateApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45A2C4151FD82B60006273CE /* KTUpdateAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A2C42D1FD82B60006273CE /* Build configuration list for PBXNativeTarget "KTUpdateAppTests" */;
+			buildPhases = (
+				45A2C4121FD82B60006273CE /* Sources */,
+				45A2C4131FD82B60006273CE /* Frameworks */,
+				45A2C4141FD82B60006273CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45A2C4181FD82B60006273CE /* PBXTargetDependency */,
+			);
+			name = KTUpdateAppTests;
+			productName = KTUpdateAppTests;
+			productReference = 45A2C4161FD82B60006273CE /* KTUpdateAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45A2C4201FD82B60006273CE /* KTUpdateAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A2C4301FD82B60006273CE /* Build configuration list for PBXNativeTarget "KTUpdateAppUITests" */;
+			buildPhases = (
+				45A2C41D1FD82B60006273CE /* Sources */,
+				45A2C41E1FD82B60006273CE /* Frameworks */,
+				45A2C41F1FD82B60006273CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45A2C4231FD82B60006273CE /* PBXTargetDependency */,
+			);
+			name = KTUpdateAppUITests;
+			productName = KTUpdateAppUITests;
+			productReference = 45A2C4211FD82B60006273CE /* KTUpdateAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45A2C3F51FD82B5F006273CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = keenteam;
+				TargetAttributes = {
+					45A2C3FC1FD82B5F006273CE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+					};
+					45A2C4151FD82B60006273CE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45A2C3FC1FD82B5F006273CE;
+					};
+					45A2C4201FD82B60006273CE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45A2C3FC1FD82B5F006273CE;
+					};
+				};
+			};
+			buildConfigurationList = 45A2C3F81FD82B5F006273CE /* Build configuration list for PBXProject "KTUpdateApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45A2C3F41FD82B5F006273CE;
+			productRefGroup = 45A2C3FE1FD82B5F006273CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45A2C3FC1FD82B5F006273CE /* KTUpdateApp */,
+				45A2C4151FD82B60006273CE /* KTUpdateAppTests */,
+				45A2C4201FD82B60006273CE /* KTUpdateAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45A2C3FB1FD82B5F006273CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A2C4101FD82B5F006273CE /* LaunchScreen.storyboard in Resources */,
+				45A2C40D1FD82B5F006273CE /* Assets.xcassets in Resources */,
+				45A2C40B1FD82B5F006273CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A2C4141FD82B60006273CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A2C41F1FD82B60006273CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45A2C3F91FD82B5F006273CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A2C4081FD82B5F006273CE /* ViewController.m in Sources */,
+				45A2C4051FD82B5F006273CE /* AppDelegate.m in Sources */,
+				45A2C4021FD82B5F006273CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A2C4121FD82B60006273CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A2C41B1FD82B60006273CE /* KTUpdateAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A2C41D1FD82B60006273CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A2C4261FD82B60006273CE /* KTUpdateAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45A2C4181FD82B60006273CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45A2C3FC1FD82B5F006273CE /* KTUpdateApp */;
+			targetProxy = 45A2C4171FD82B60006273CE /* PBXContainerItemProxy */;
+		};
+		45A2C4231FD82B60006273CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45A2C3FC1FD82B5F006273CE /* KTUpdateApp */;
+			targetProxy = 45A2C4221FD82B60006273CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45A2C4091FD82B5F006273CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A2C40A1FD82B5F006273CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45A2C40E1FD82B5F006273CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A2C40F1FD82B5F006273CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45A2C4281FD82B60006273CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45A2C4291FD82B60006273CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45A2C42B1FD82B60006273CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTUpdateApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kt.KTUpdateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45A2C42C1FD82B60006273CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTUpdateApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kt.KTUpdateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45A2C42E1FD82B60006273CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTUpdateAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kt.KTUpdateAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTUpdateApp.app/KTUpdateApp";
+			};
+			name = Debug;
+		};
+		45A2C42F1FD82B60006273CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTUpdateAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kt.KTUpdateAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTUpdateApp.app/KTUpdateApp";
+			};
+			name = Release;
+		};
+		45A2C4311FD82B60006273CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTUpdateAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kt.KTUpdateAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTUpdateApp;
+			};
+			name = Debug;
+		};
+		45A2C4321FD82B60006273CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTUpdateAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kt.KTUpdateAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTUpdateApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45A2C3F81FD82B5F006273CE /* Build configuration list for PBXProject "KTUpdateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A2C4281FD82B60006273CE /* Debug */,
+				45A2C4291FD82B60006273CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A2C42A1FD82B60006273CE /* Build configuration list for PBXNativeTarget "KTUpdateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A2C42B1FD82B60006273CE /* Debug */,
+				45A2C42C1FD82B60006273CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45A2C42D1FD82B60006273CE /* Build configuration list for PBXNativeTarget "KTUpdateAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A2C42E1FD82B60006273CE /* Debug */,
+				45A2C42F1FD82B60006273CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45A2C4301FD82B60006273CE /* Build configuration list for PBXNativeTarget "KTUpdateAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A2C4311FD82B60006273CE /* Debug */,
+				45A2C4321FD82B60006273CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45A2C3F51FD82B5F006273CE /* Project object */;
+}
