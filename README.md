@@ -5,8 +5,9 @@
 
 最好在真机上运行才能看到完全效果哦
 
-![项目结构图](https://github.com/KeenTeam1990/KTUpdateApp/blob/master/pic/IMG_2565.PNG)
-![项目结构图](https://github.com/KeenTeam1990/KTUpdateApp/blob/master/pic/IMG_2566.PNG)
+<img src="./pic/IMG_2565.PNG " width = "375" height ="667"/>
+<img src="./pic/IMG_2566.PNG"  width = "375" height ="667"/>
+
 ***
 实现思路
 
